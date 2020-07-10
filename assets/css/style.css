@@ -114,6 +114,37 @@ a:active {
     text-decoration: none;
 }
 
+/* ---------------------------------------- Footer  */
 
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+    background-image: url('./images/black.jpg');
+    border-color: transparent;
+    text-align: center;
+    margin: 0;
+    padding: 0px 0px 1px 0px;
+    color: #919796;
+ }
+
+.connect {
+	text-align: center;
+    margin-bottom: 1px;
+}
+
+.connect li {
+	display: inline;
+}
+
+.connect i {
+	font-size: 200%;
+	margin: 1%;
+	padding: 1%;
+	color: #919796;
+}
 
 
