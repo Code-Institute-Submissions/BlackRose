@@ -76,10 +76,10 @@ a {
     color: #78795b;
 }
 
-a:hover,
-a:active {
+.banner-text a:hover,
+.banner-text a:active {
     font-size: 110%;
-    color: rgba(151, 155, 177, 0.678) !important;
+    color: rgba(151, 155, 177, 0.678);
 }
     
 
@@ -102,22 +102,24 @@ a:active {
         
 }
 
-.justify-content-center li a {
+.nav-link {
     padding: 20px 25px 15px 25px;
-    color: #384241;
+    color: #78795b;
 }
 
 
-.justify-content-center li a:hover,
-.justify-content-center li a:active { 
-    color: #fafafa !important;
-    text-decoration: none;
+.nav-link:hover,
+.nav-link:active { 
+    color: #362e08 !important;
+
 }
 
 
 .dropdown-menu {
     background-color: #78795b;
 }
+
+
 /* ---------------------------------------- Footer  */
 
 
@@ -126,7 +128,7 @@ a:active {
   justify-content: center;
 }
 
-footer {
+.footer {
     background-image: url('./images/black.jpg');
     border-color: transparent;
     text-align: center;
@@ -135,6 +137,14 @@ footer {
     color: #919796;
  }
 
+.footer2 {
+    background-color: white;
+    
+    text-align: center;
+    margin: 0;
+    padding: 0px 0px 1px 0px;
+    color: #919796;
+ }
 .connect {
 	text-align: center;
     margin-bottom: 1px;
@@ -145,10 +155,18 @@ footer {
 }
 
 .connect i {
-	font-size: 200%;
+	font-size: 150%;
 	margin: 1%;
 	padding: 1%;
-	color: #919796;
+	color: #78795b;
+    border-radius: 50%;
 }
+
+.connect i:hover,
+.connect i:active {
+    font-size: 200%;
+    color: #919796;
+}
+
 
 
