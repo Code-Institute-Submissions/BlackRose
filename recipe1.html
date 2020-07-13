@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
     <title>Black Rose</title>
   </head>
   <body class="recipe">
@@ -78,7 +79,13 @@
         <br />
         <div class="row align-items-center no-gutters">
                 <div class="col-md-6 offset-md-4">
+                    <div class="center-form">
+                        <form onsubmit="return sendMail(this);">
+                        <input type="text">
+                        <input type="submit" value="Submit">
+                        </form>
                 Subscribe for latest recipe notifications
+                    </div>
                 </div> 
         </div>
     </section>
@@ -102,6 +109,7 @@
 
 
 <!------------------------------------------------SCRIPTS---------------------------------------------------->
+    <script src="assets/js/email.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/popper.min.js"></script>
