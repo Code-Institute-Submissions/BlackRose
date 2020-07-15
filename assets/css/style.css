@@ -185,6 +185,25 @@ body.recipe {
     -webkit-transition: all .5s ease-in-out;
 }
 
+.recipeSection {
+    font-family: 'Helvetica,Arial,sans-serif';
+}
+
+.mdex-test.template-recipe .section-headline .recipe-adjust-servings {
+    font-family: 'Gilroy-Regular,sans-serif';
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0;
+    display: flex;
+    float: none;
+    justify-content: center;
+    margin-top: 16px;
+
+#map {
+    min-height: 360px;
+}
+
 /* ---------------------------------------- Contact Form  */
 
 .connectForm {

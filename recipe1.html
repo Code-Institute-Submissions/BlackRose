@@ -53,8 +53,8 @@
 <br />
 
 
-    <section class="container-fluid">
-        <div class="container">
+    <section class="container-fluid ">
+        <div class="container recipeSection">
             <div class="row align-items-start no-gutters">
                 <div class="col">
                      <a class="col-md-4 food" href="recipe1.html"></a>
@@ -69,12 +69,22 @@
                         
                 </div>
              <div class="col">
-             <br>
+             <br><br><br>
+			<div>
+				<label for="serving">Servings :</label>
+				<input type="number" id="servingInput" value="2">
+				<button class="js-decreaseService">-</button>
+				<button class="js-increaseService">+</button>
+			</div>
+
              <br>
              <br>
                 <p>Show recipe in my native language</p>
                 <div id="google_translate_element"></div>
                 </div>
+
+            <div id="map"></div>
+            
             </div>
              <div class="row align-items-center no-gutters">
                 <div class="col">
@@ -156,8 +166,16 @@
 
 
 <!------------------------------------------------SCRIPTS---------------------------------------------------->
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+
+    <script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfhglCsN0XGddlmoH7b8xNIU7anLhI7xM&callback=initMap"
+		type="text/javascript"></script>
+    <script>"https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJKSp50NI0K4gR6C6L3yYqpYY&fields=name&key=AIzaSyAfhglCsN0XGddlmoH7b8xNIU7anLhI7xM"</script>
+	<script src="assets/js/maps.js"></script>
     <script src="assets/js/email.js"></script>
     <script src="assets/js/connectform.js"></script>
+    <script src="assets/js/recipeCalc.js"></script>
     <script src="assets/js/translate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/boot.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js"></script>
