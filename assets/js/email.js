@@ -8,10 +8,11 @@ function sendMail(contactForm) {
     .then( 
         function(response) {
             console.log("SUCCESS", response);
+            alert("Thanks for Sharing");
         },
         function(error) {
             console.log("FAILED", error);
         }
     );
-    return false;  // To block from loading a new page when "Share" is clicked
+     // To block from loading a new page when "Share" is clicked
 }

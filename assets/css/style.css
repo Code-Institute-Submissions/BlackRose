@@ -187,3 +187,7 @@ body.recipe {
 
 /* ---------------------------------------- Contact Form  */
 
+.connectForm {
+    display: inline-block;
+    position: inherit;
+}
