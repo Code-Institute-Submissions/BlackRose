@@ -176,7 +176,7 @@ body.recipe {
 
 .food {
     background: url("./images/sunkissed-chicken.jpg");
-    background-position: center;
+    background-position: inherit;
     background-repeat: no-repeat;
     background-size:cover;
     min-height: 360px;
