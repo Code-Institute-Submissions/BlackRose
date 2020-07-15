@@ -169,7 +169,7 @@ a {
 }
 
 
-
+/* ---------------------------------------- Recipe pages  */
 body.recipe {
     background-image: url('./images/whitegrey.jpg');
 }
@@ -183,4 +183,10 @@ body.recipe {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+/* ---------------------------------------- Contact Form  */
+
+.center-form {
+    display: inline-block;
 }
