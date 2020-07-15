@@ -1,30 +1,17 @@
-// code fragment
-var data = {
-    service_id: 'gmail',
-    template_id: 'template_ILtxQsXF',
-    user_id: 'user_JgZuqNv3HmCtebiGlulvo',
-    template_params: {
-        'username': 'Honey',
-        'notes': 'Look at my version of this recipe '
-    }
-};
- 
-function email(contactForm) {
+// Function to send email from website to gmail via emailjsn with promise/tests
+function sendMail(contactForm) {
     emailjs.send("gmail", "template_ILtxQsXF", {
         "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,
-        "my_version": contactForm.myversion.value
+        "from_email": contactForm.email.value,
+        "clientversion": contactForm.my_version.value
     })
-
-$.ajax('https://api.emailjs.com/api/v1.0/email/send', {
-    type: 'POST',
-    data: JSON.stringify(data),
-    contentType: 'application/json'
-}).done(function() {
-    alert('Your mail is sent!');
-}).fail(function(error) {
-    alert('Oops... ' + JSON.stringify(error));
-});
-
-
-// code fragment
+    .then( 
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        }
+    );
+    return false;  // To block from loading a new page when "Share" is clicked
+}
