@@ -67,9 +67,17 @@ html,body {
     top: 60%;
     font-size: 30px;
     letter-spacing: 1px;
-    background-color: #384241;
+    text-transform: capitalize;
     padding: 5px;
 
+}
+
+.banner-text h5 {
+    color: #eee8e0;
+    position: absolute;
+    right: 8%;
+    top: 70%;
+    text-transform: capitalize;
 }
 
 a {
@@ -79,7 +87,7 @@ a {
 .banner-text a:hover,
 .banner-text a:active {
     font-size: 110%;
-    color: rgba(151, 155, 177, 0.678);
+    color: #eee8e0;
 }
     
 
@@ -96,21 +104,22 @@ a {
 .nav {
     background: none;
     border: none;
-    font-weight: 300;
+    font-weight: bold;
     letter-spacing: .1rem;
-    ;
+    
         
 }
 
 .nav-link {
     padding: 20px 25px 15px 25px;
     color: #78795b;
+    text-transform: uppercase;
 }
 
 
 .nav-link:hover,
 .nav-link:active { 
-    color: #362e08 !important;
+    color: #fffefb !important;
 
 }
 
@@ -200,7 +209,7 @@ body.recipe {
     justify-content: center;
     margin-top: 16px;
 
-#map {
+div#map {
     min-height: 360px;
 }
 
@@ -216,3 +225,4 @@ body.recipe {
         width: 97.5%; /*this gives it the precise width to match the Bootstrap defaults*/
     }
 }
+
