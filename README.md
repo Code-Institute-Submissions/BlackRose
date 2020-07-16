@@ -1,9 +1,28 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
 # Black Rose
 > Home cooked meal recipes. 
 This repo hosts the assets used to build the Black Rose website.
 
+### Background
+Ever since I can remember, I've enjoyed cooking and sharing recipes with loved ones by stuffing their faces with food I made. I've
+always envisioned owning a cozy cafe or trattoria like kind of restaurant some day in the future, that would serve breakfast, lunch and 
+early dinner, however the uniqueness of it would come down to the menu i would offer. The menu would only contain recipes I have self-made 
+or created by myself over the years that I've had stored in a old manuscript book, the menu would not contain regular meals served in common restaurants
+today, and because of that the name "BlackRose" is what I would call it.
+
+A black rose is technically a very dark shade of red, purple or maroon, it's color can be deepened by adding black ink to water in vase. I would say 
+unlike any other rose, it is unlikely, unusual and definitely a hidden gem, which is the similar idea I'v always had for my little restaurant
+it would be a hidden gem for many to find wholesome meals and experience a sense of home. 
+
+Given that my BlackRose restaurant dream is yet to be realised, I present to you BlackRose the website, it will serve as a way to still share
+my self-made recipes with everyone not just my loved one until such a time that I can make these meals for the general public, it will also 
+serve as an upgrade or civilised version of my old manuscript book, and hopefully one I won't be able to lose, as I've done before with the old.
+
+And lets not forget BlackRose is also because I consider myself to be a rose and because I'm a black woman the idea of a black rose
+resonates more with me.
+
+BlackRose recipe site is not your regular recipe website, the only recipes to be found are those made by me, I'll not be instructing on how to 
+pouch an egg, you should already have the skills to.
 
 ### Demo 
 A live demo can be found here [here](https://honey20103.github.io/spoti-cve/)
@@ -11,7 +30,7 @@ A live demo can be found here [here](https://honey20103.github.io/spoti-cve/)
 ## UX
 
 ### User stories
-- As a subscriber looking for daily or weekly inspiration for a home cooked meal,
+- As a subscriber looking for inspiration on a home cooked meal,
 while battling busy schedules and family life, I would like to easily read a recipe.
 
 - I often struggle to cut down the measurements of ingredients for a recipe that serves more than
@@ -20,6 +39,9 @@ correct measurements.
 
 - I hardly cook without a recipe, and when I do I never know what to pair certain foods with, 
 I would appreciate a recipe that has an entire meal documented.
+
+- What if I would like to find a similar meal around or near me, because I might to feel like cooking 
+today?
 
 - As a user I would like the ability to online purchase the ingredients I need for the recipe, and
 not have to worry about writing a list and going to my local grocery store.
@@ -39,11 +61,12 @@ For the users i wanted to provide them with easy to read recipes that I have cre
 The menu easily provides the quick glimpse of what recipes are available to their disposal.
 
 ### Skeleton
-[Wireframe](https://github.com/Honey20103/spoti-cve/blob/master/wireframes/Milestone%201%20Project%20(Spoti-CVE).bmpr)
+[Wireframe](https://github.com/Honey20103/BlackRose/blob/master/wireframes/BlackRoseWireFrame.bmpr)
 
 
 ### Surface
-The black and greyscale color scheme was chosen to create a sleek and modern feel.
+The black and greyscale color scheme was chosen to reflect the background of the name/story and create a sleek and modern feel. I wanted a user to have a sense of calm and ease as they 
+navigated the pages.
 
 ## Project Setup 
 
@@ -81,10 +104,11 @@ To run locally, you can clone this repository directly into the editor of your c
 ## Credits
 
 ### Content
-The content on the site is derived from my self-made recipes. 
+The content on the site is derived from my self-made manuscript recipes book. 
 
 ### Media 
-All photos were taken from https://www.pexels.com/, a stock image library.
+All background photos were taken from https://www.pexels.com/, a stock image library.
+Images of the recipes were taken by myself.
 
 ### Acknowledgements
 
