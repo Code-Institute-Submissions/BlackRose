@@ -105,7 +105,7 @@ a {
 
 .nav {
     background: none;
-    border: none;
+    border: inherit;
     font-weight: bolder;
     letter-spacing: .1rem;
     
@@ -197,11 +197,13 @@ body.recipe {
 }
 
 .recipeSection {
-    font-family: 'Helvetica,Arial,sans-serif';
+    font-family: "Montserrat", Arial, sans-serif;
 }
 
+
+
 .mdex-test.template-recipe .section-headline .recipe-adjust-servings {
-    font-family: 'Gilroy-Regular,sans-serif';
+    font-family: "Montserrat", Arial, sans-serif;
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
@@ -210,6 +212,7 @@ body.recipe {
     float: none;
     justify-content: center;
     margin-top: 16px;
+}
 
 div#map {
     min-height: 360px;
@@ -222,9 +225,19 @@ div#map {
     position: inherit;
 }
 
-@media (max-width: 1200px) {
-    #myContainer {
-        width: 97.5%; /*this gives it the precise width to match the Bootstrap defaults*/
-    }
-}
 
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
