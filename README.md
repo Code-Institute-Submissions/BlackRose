@@ -1,7 +1,7 @@
 
 # Black Rose
 > Home cooked meal recipes. 
-This repo hosts the assets used to build the Black Rose website.
+This repo hosts the assets used to build the Black Rose website. A website focused on providing home cooks with exciting meal recipes.
 
 ### Background
 Ever since I can remember, I've enjoyed cooking and sharing recipes with loved ones by stuffing their faces with food I made. I've
@@ -40,7 +40,7 @@ correct measurements.
 - I hardly cook without a recipe, and when I do I never know what to pair certain foods with, 
 I would appreciate a recipe that has an entire meal documented.
 
-- What if I would like to find a similar meal around or near me, because I might to feel like cooking 
+- As a user what if I would like to find a similar meal around or near me, because I might to feel like cooking 
 today?
 
 - As a user I would like the ability to online purchase the ingredients I need for the recipe, and
@@ -81,8 +81,14 @@ $ git clone https://github.com/Honey20103/BlackRose.git
 
 ## Features
 
-- Possibly have alerts to communication platforms such like Slack.
-- Possibly include and track 0 day vulnerabilities on our inventory. 
+- Ability to translate the recipe to whatever the native language the user best understands
+- Ability to chnage ingredients per serving, function available however not linked to Ingredients therefore did not achieve user story expectations
+
+## Future Features
+
+- Future Google Maps JavaScript & Google Places API integration to enable users to search for nearby within 5km radius for restaurant that 
+  might serve similar dishes, I have included my maps API key, and and javacript to call the api to google maps javascript api, however I did not manage to get it working, I have commented out the ID in html.
+- 
 
 ## Technologies
 1. HTML
@@ -92,9 +98,11 @@ $ git clone https://github.com/Honey20103/BlackRose.git
 5. API's
 
 ## Testing
-This site was manually tested through trial and error to ensure compatibility and responsiveness.
+This site was manually tested through trial and error to ensure compatibility and responsiveness, as seen in my Git version control. However, towards the end I decided to make use of availabe online validators or code testeers i.e, http://csslint.net/ for my style.css sheet, https://www.responsinator.com/ to observe my 
+website responsivesnes and compatibility on multiple mobile devices in both landscape and portrait (iPhone 6-8, iPad and Android) I realised while the homepage looked fine on all devices, the recipe pages Container-fluid section was not responsive, containers did not overlapped as expected on the breakpoints(Ive fixed this), https://www.freeformatter.com/ html validator which helped me with a few linter issues in my HTML code and learned that due to more than two consecutive hyphens in my comment labels or dividers XML 1.0 doesn't approve the document I've changed that to use asterisks instead, minor issue, http://browsershots.org/ to complete a compatibility test on web browsers and lastly I used http://www.jslint.com/ to test my javascript scripts results for most showed undeclared variables, suggestions to switch single quotes for use of double quotes and other minor issues, which i had fixed. 
 
-- This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. 
+If you try to submit the connect/share form without filling in the email fields and name, there will be an error noting the invalid. Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'image upload' field, so if those fields are not filled in, it's not supposed to submit the form, however in my case it does, because realised quite late that I cannot have two functions called on the 'onsubmit' event, i struggled to figure out how to best nest my two functions the field validation check and email send with emailjs, I resorted to leaving at is due to time contraints and requirements, and therefore on the click submit "Share" eventhough my validation check script works, a user could click the submit button with empty fields and it would send an email via the emailjs API call, on submit fields clear too, however validation script runs anyway, I understand that the use of Jasmine for testing would have helped best structure my scripts. 
+
 
 
 ## Deployment 
