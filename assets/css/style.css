@@ -60,15 +60,17 @@ html,body {
     text-align: right;
 
 }
-
+    /*background-color: #64502b */
 .banner-text h2 {
     position: absolute;
     right: 5%;
+    font-weight: bold;
     top: 60%;
     font-size: 30px;
     letter-spacing: 1px;
     text-transform: capitalize;
     padding: 5px;
+   
 
 }
 
@@ -104,7 +106,7 @@ a {
 .nav {
     background: none;
     border: none;
-    font-weight: bold;
+    font-weight: bolder;
     letter-spacing: .1rem;
     
         

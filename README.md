@@ -68,7 +68,7 @@ The menu easily provides the quick glimpse of what recipes are available to thei
 
 
 ### Surface
-The black and greyscale color scheme was chosen to reflect the background of the name/story and create a sleek and modern feel. I wanted a user to have a sense of calm and ease as they 
+The black and nude scale color scheme was chosen to reflect the background of the name/story and create a sleek and modern feel. I wanted a user to have a sense of calm and ease as they 
 navigated the pages.
 
 ## Project Setup 
