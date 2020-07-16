@@ -25,7 +25,7 @@ BlackRose recipe site is not your regular recipe website, the only recipes to be
 pouch an egg, you should already have the skills to.
 
 ### Demo 
-A live demo can be found here [here](https://honey20103.github.io/spoti-cve/)
+A live demo can be found here [here](https://honey20103.github.io/BlackRose/)
 
 ## UX
 
@@ -61,7 +61,9 @@ For the users i wanted to provide them with easy to read recipes that I have cre
 The menu easily provides the quick glimpse of what recipes are available to their disposal.
 
 ### Skeleton
-[Wireframe](https://github.com/Honey20103/BlackRose/blob/master/wireframes/BlackRoseWireFrame.bmpr)
+[Home wireframe](https://github.com/Honey20103/BlackRose/blob/master/wireframes/HomePage.png)
+[Recipe wireframe](https://github.com/Honey20103/BlackRose/blob/master/wireframes/RecipePage.png)
+
 
 
 ### Surface
