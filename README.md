@@ -62,6 +62,7 @@ The menu easily provides the quick glimpse of what recipes are available to thei
 
 ### Skeleton
 [Home wireframe](https://github.com/Honey20103/BlackRose/blob/master/wireframes/HomePage.png)
+
 [Recipe wireframe](https://github.com/Honey20103/BlackRose/blob/master/wireframes/RecipePage.png)
 
 
