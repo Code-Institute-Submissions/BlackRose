@@ -1,7 +1,7 @@
 
 # Black Rose
 > Home cooked meal recipes. 
-This repo hosts the assets used to build the Black Rose website. A website focused on providing home cooks with exciing meal recipes.
+This repo hosts the assets used to build the Black Rose website. A website focused on providing home cooks with exciting meal recipes.
 
 ### Background
 Ever since I can remember, I've enjoyed cooking and sharing recipes with loved ones by stuffing their faces with food I made. I've
@@ -82,7 +82,7 @@ $ git clone https://github.com/Honey20103/BlackRose.git
 ## Features
 
 - Ability to translate the recipe to whatever the native language the user best understands
-- 
+- Ability to chnage ingredients per serving, function available however not linked to Ingredients therefore did not achieve user story expectations
 
 ## Future Features
 
