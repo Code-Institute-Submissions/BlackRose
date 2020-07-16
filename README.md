@@ -87,7 +87,7 @@ $ git clone https://github.com/Honey20103/BlackRose.git
 ## Future Features
 
 - Future Google Maps JavaScript & Google Places API integration to enable users to search for nearby within 5km radius for restaurant that 
-  might serve similar dishes, I have included my maps API key, and and javacript to call the api to google maps javascript api, however I did not manage to get it working 
+  might serve similar dishes, I have included my maps API key, and and javacript to call the api to google maps javascript api, however I did not manage to get it working, I have commented out the ID in html.
 - 
 
 ## Technologies
